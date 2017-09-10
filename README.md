@@ -40,16 +40,12 @@ should be the same; install pip, install Sphinx.
 
 Proceed to the section [Clone the theme](#clone-the-theme).
 
-### Clone the theme
+### Install the theme
 In order to build the docs, you will also need the 
-[Read the Docs Sphinx theme](https://github.com/rtfd/sphinx_rtd_theme)
-in the _themes directory in the root of the project. There is a simple Makefile
-in the root to help you with this; simply run:
+[Read the Docs Sphinx theme](https://github.com/rtfd/sphinx_rtd_theme). Since 
+you've already installed pip, this is a simple one-liner:
 
-    $ make theme
-    
-to clone the theme into the required location. Now you are ready to build the 
-docs.
+    $ pip install sphinx_rtd_theme
 
 ## Building the docs
 There are Makefiles in each language subdirectory. These are standard Sphinx
