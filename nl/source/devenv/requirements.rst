@@ -6,12 +6,12 @@ van Drupal. Hiervoor gaan we enkel gebruik maken van de web-interface van
 Drupal. Er zijn daarbij twee mogelijkheden:
 
 * Drupal is geïnstalleerd op een server waar de organisator van jouw *Drupal in
-a Day* voor gezorgd heeft. Hiervoor moet je de beschikking hebben over een
-computer die voldoet aan de systeemeisen onder het kopje **Alleen webclient**.
+  a Day* voor gezorgd heeft. Hiervoor moet je de beschikking hebben over een
+  computer die voldoet aan de systeemeisen onder het kopje **Alleen webclient**.
 * Je installeert Drupal op dezelfde computer als waar je ook op werkt en waar je
-verbinding maakt met Drupal via de browser. Hiervoor moet je de beschikking
-hebben over een computer die voldoet aan de systeemeisen onder het kopje
-**Webclient en webserver**.
+  verbinding maakt met Drupal via de browser. Hiervoor moet je de beschikking
+  hebben over een computer die voldoet aan de systeemeisen onder het kopje
+  **Webclient en webserver**.
 
 De organisator van je *Drupal in a Day* zal aangeven welke van deze opties je
 zelf voor moet zorgen. Het kan ook dat je zelf niks hoeft te regelen; in dat
