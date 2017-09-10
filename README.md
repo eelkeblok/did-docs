@@ -5,7 +5,9 @@ be rendered into HTML or PDF using [Sphinx](http://www.sphinx-doc.org).
 **To contribute, you do not need Sphinx**, especially if you write in Markdown;
 there are plenty of tools that render Markdown while you edit and it is very 
 readable in its plain form (the same, though to a lesser extent, is true for 
-RST).
+RST). Also, both MD and RST are rendered in place by Github, so if you are 
+looking at this repository through Github, most files will be rendered into 
+pretty HTML.
 
 If you do wish to install Sphinx, instructions are below.
 
