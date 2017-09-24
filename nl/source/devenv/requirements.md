@@ -1,6 +1,5 @@
-************
 Systeemeisen
-************
+============
 Bij *Drupal in a Day* ga je zelf aan de slag met een persoonlijke installatie
 van Drupal. Hiervoor gaan we enkel gebruik maken van de web-interface van
 Drupal. Er zijn daarbij twee mogelijkheden:
@@ -13,7 +12,8 @@ Drupal. Er zijn daarbij twee mogelijkheden:
   hebben over een computer die voldoet aan de systeemeisen onder het kopje
   **Webclient en webserver**.
 
-De organisator van je *Drupal in a Day* zal aangeven welke van deze opties je
+De organisator van je *Drupal in a Day* zal aangeven of je voor een van deze 
+opties zelf moet zorgenwelke van deze opties je
 zelf voor moet zorgen. Het kan ook dat je zelf niks hoeft te regelen; in dat
 geval zal ook de client-computer door de organisator worden geregeld). Over het
 algemeen geldt dat wat je vooraf kunt doen mooi meegenomen is. Kom je er niet
@@ -22,7 +22,7 @@ helpen, of geeft aan dat er voor aanvang van de dag nog tijd is om problemen te
 verhelpen.
 
 Alleen webclient
-================
+----------------
 Om verbinding te kunnen maken met je Drupal-installatie heb je een computer
 nodig met een moderne web browser. Om het leuk te houden voor de vrijwilligers
 die *Drupal in a Day* opzetten wordt er een beperkt aantal combinaties van
@@ -36,14 +36,12 @@ minder geheugen, is het sterk aan te bevelen om voldoende geheugen in je
 computer te hebben omdat dat veel invloed heeft op hoe snel het systeem
 aanvoelt. 4GB is een ondergrens.
 
-Mac
----
+### Mac
 * macOS 10.13 (High Sierra) of hoger
 * Safari 10.1 of Chrome 60.0 of hoger
 * Minimaal 4 GB geheugen
 
-Windows
--------
+### Windows
 Beschik je niet over Chrome, dan kun je die downloaden op
 https://www.google.nl/intl/nl/chrome/browser/.
 
@@ -51,8 +49,7 @@ https://www.google.nl/intl/nl/chrome/browser/.
 * Chrome 60.0 of hoger
 * Minimaal 4 GB geheugen
 
-Linux
------
+### Linux
 Maak je gebruik van Linux, dan gaan we ervanuit dat je meer dan gemiddeld je weg
 weet met computers. Het is goed mogelijk dat je trainer minder goed thuis is in
 Linux dan jijzelf. We stellen geen bepaalde eisen aan de distributie die je
@@ -63,7 +60,7 @@ zijn). Wel raden we de volgende zaken aan.
 * Minimaal 4 GB geheugen
 
 Webclient en webserver
-======================
+----------------------
 Wanneer je Drupal op dezelfde computer gaat installeren als waarop je gaat
 werken, zijn er naast de systeemeisen uit de vorige sectie nog een aantal
 aanvullende systeemeisen. Ben je bekend met het draaien van een website op je
