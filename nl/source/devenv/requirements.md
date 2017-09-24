@@ -14,8 +14,7 @@ Drupal. Er zijn daarbij twee mogelijkheden:
   [**Webclient en webserver**](#webclient-en-webserver).
 
 De organisator van je *Drupal in a Day* zal aangeven of je voor een van deze 
-opties zelf moet zorgenwelke van deze opties je
-zelf voor moet zorgen. Het kan ook dat je zelf niks hoeft te regelen; in dat
+opties zelf moet zorgen. Het kan ook dat je zelf niks hoeft te regelen; in dat
 geval zal ook de client-computer door de organisator worden geregeld). Over het
 algemeen geldt dat wat je vooraf kunt doen mooi meegenomen is. Kom je er niet
 uit, neem dan contact op met je organisator. Misschien kan hij of zij direct
