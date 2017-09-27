@@ -10,7 +10,8 @@ Drupal in a Day Cursusmateriaal
    :maxdepth: 2
    :caption: Inhoud:
 
-   devenv/requirements
+   devenv/o1-requirements
+   devenv/o3-installation-manual
 
 Indices and tables
 ==================
