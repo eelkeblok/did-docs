@@ -64,7 +64,7 @@ Webclient en webserver
 Wanneer je Drupal op dezelfde computer gaat installeren als waarop je gaat
 werken, zijn er naast de systeemeisen uit de vorige sectie nog een aantal
 aanvullende systeemeisen. Ben je bekend met het draaien van een website op je
-eigen systeem, aarzel dan niet om je eigen oplossing hiervoor te gebruiken. Wij
+eigen systeem aarzel dan niet om je eigen oplossing hiervoor te gebruiken. Wij
 raden de volgende componenten aan:
 
 * PHP 7.0
