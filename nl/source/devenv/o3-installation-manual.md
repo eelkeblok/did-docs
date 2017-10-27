@@ -175,33 +175,60 @@ installatie te beginnen.
 
 ![](../_static/images/devenv/installation-manual/image14.png)
 
-De installatie - deel 3
+Drupal installeren
 -----------------------
 De Drupal 8 bestanden staan nu op je computer. Het laatste wat moet gebeuren is
-dat Drupal zichzelf installeert. Dat gaan we nu doen. Als je de link in de Dev
-Desktop hebt aangeklikt opent je webbrowser zich en verschijnt de Drupal
-installatie pagina.
+de installatie van Drupal zelf. Hierbij wordt de database gevuld met de 
+benodigde tabellen en instellingen. Dat gaan we nu doen. Als je de link in de 
+Dev Desktop hebt aangeklikt opent je webbrowser zich en verschijnt de
+installatie-pagina van Drupal.
 
 ![](../_static/images/devenv/installation-manual/image4.png)
 
 Kies hier jouw taal en klik op *Save and Continue*.
 
-**Belangrijk**: als je een andere taal kiest, moet je zorgen dat jouw systeem
-een actieve internet verbinden heeft zodat het de juiste vertaling kan
-downloaden.
+**Belangrijk.** Als je een andere taal dan Engels kiest, dan moet je zorgen dat 
+je systeem een actieve internet-verbinding heeft zodat het de juiste vertaling 
+kan downloaden.
+
+TODO. Stap om profiel te kiezen, of profiel forceren in installatie. Evt. hier
+nog een opmerking dat op deze plek in de installatie Drupal meestal vraagt om 
+een profiel te kiezen.
+
+De installatie wordt nu gestart.
 
 ![](../_static/images/devenv/installation-manual/image1.png)
 
-Drupal gaat aan de slag om zichzelf te installeren&hellip;
+Nadat de installatie enige tijd gedraaid heeft wil het installatie-script een 
+aantal instellingen weten om de installatie te kunnen voltooien. 
 
 ![](../_static/images/devenv/installation-manual/image9.png)
 
 De laatste stap voor je aan de slag kan. Vul hier alle gegevens voor je website
-in. In de cursus leggen we uit hoe je deze informatie later kan aanpassen.
+in.
 
-Klik op *Finish* om af te ronden en je eigen Drupal website te zien.
+* Kies een naam voor je website, bijv. *Drupal in a Day*.
+* Stel een email-adres in. Dit is het email-adres dat gebruikt zou worden bij 
+  het versturen van geautomatiseerde emails, je kunt hier je eigen email-adres 
+  voor gebruiken. Er moet wel een geldig email-adres ingevuld worden, of 
+  tenminste iets dat daarop lijkt. Pas op met "flauwekul" adressen, want het zal 
+  je verbazen welke domeinen er allemaal geregistreerd zijn en welke 
+  email-adressen dus potentieel echt bestaan. 
+* Stel een gebruikersnaam in voor de beheerdersaccount die automatisch wordt 
+  aangemaakt, bijv. *admin*.
+* Kies een wachtwoord dat je makkelijk kunt onthouden, bijv. *password*. Het 
+  hoeft geen veilig wachtwoord te zijn, want de site is alleen toegankelijk op 
+  je eigen computer. *Houdt er rekening mee dat je wel een sterk wachtwoord 
+  instelt als je de site ooit online zou zetten.*
+* Noteer gebruikersnaam en wachtwoord ergens zodat je deze niet vergeet. Met
+  extra tools is het mogelijk om weer toegang te krijgen tot een Drupal-site 
+  waarvan de gegevens van het beheerdersaccount kwijt zijn, maar die hebben we
+  hier niet beschikbaar.
+
+
+Klik op *Opslaan en doorgaan* (*Save and Continue*) om af te ronden en je eigen Drupal website te zien.
 
 ![](../_static/images/devenv/installation-manual/image13.png)
 
-Et Voila! Drupal 8 is geïnstalleerd. Je kan aan de slag. Ga naar [stap 1 van de
+Gefeliciteerd, Drupal is geïnstalleerd, je kan aan de slag. Ga naar [stap 1 van de
 basiscursus]() om aan de slag te gaan!
