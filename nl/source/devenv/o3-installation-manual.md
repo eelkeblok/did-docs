@@ -100,9 +100,9 @@ Pak iets te drinken terwijl je computer druk bezig is met installeren.
 
 ![Voortgangsscherm tijdens installatie.](../_static/images/devenv/installation-manual/image18.png)
 
-Het is zover! De Dev Desktop is op je computer geïnstalleerd. Klik op *Finish*
-om de Dev Desktop op te starten en ga door met het tweede deel van de
-installatiehandleiding om je eigen Drupal 8 site te installeren.
+Het is zover! De Dev Desktop is op je computer geïnstalleerd. Klik het vinkje 
+**uit** waar *Launch Acquia Dev Desktop after clicking Finish* bij staat, want we 
+gaan eerst Drupal zelf downloaden.
 
 ![Laatste scherm installatie Dev
 Desktop.](../_static/images/devenv/installation-manual/image15.png)
@@ -110,39 +110,70 @@ Desktop.](../_static/images/devenv/installation-manual/image15.png)
 ### Windows
 TODO.
 
-Drupal-distributie kiezen
------------------------
-Nu de webserver en database op je systeem geïnstalleerd zijn, volgen de
-stappen om een Drupal 8 website te installeren op je systeem. De screenshots
-tonen de Mac-versie, maar de stappen zijn in principe gelijk voor de Windows-
-versie. Als je de Dev Desktop nog niet opgestart had, doe dat dan nu. Je krijgt 
-het volgende scherm te zien:
+Drupal downloaden en klaarmaken voor installatie
+-----------------
+Nu de webserver en database op je systeem geïnstalleerd zijn, moeten we de 
+bestanden van Drupal op je computer gaan zetten. De Dev Desktop biedt de 
+mogelijkheid om dit voor je te doen voor de standaard versie van Drupal en voor
+een aantal populaire *distributies*. Voor *Drupal in a Day* maken we gebruik van 
+een aparte distributie. Deze gaan we nu downloaden.
+
+Ga naar [https://github.com/drupalinaday/did-training-distro](https://github.com/drupalinaday/did-training-distro).
+
+TODO. Localiseren van de laatste versie op Github of misschien Drupal in a 
+Day-site.
+ 
+Download de laatste versie in zip-formaat en pak deze uit. Verplaats de 
+uitgepakte naar een locatie waar de webserver ze kan vinden, in een aparte 
+directory. Als je gebruik maakt van de Acquia Dev Desktop en de standaard 
+locaties hebt gebruikt dan zal dat bijvoorbeeld zijn: 
+
+* /Users/(jouw account)/Sites/devdesktop/drupalinaday op Mac
+* C:\\???\devdesktop\drupalinaday op Windows
+
+Start nu de Acquia Dev Desktop. 
+
+* Op de Mac kun je deze vinden in de map *Applicaties* (*Applications*) onder 
+*DevDesktop*.
+* Op Windows kun je deze vinden ...
+
+***Maak je geen gebruik van de Dev Desktop**, zorg er dan voor dat je een lokale 
+website hebt die de directory waar de Drupal-bestanden staan als web root 
+gebruikt. Maak ook een database aan voor gebruik met de Drupal-installatie. Je 
+kunt dan verder gaan met de stap [Drupal installeren](#drupal-installeren).*
+
+De screenshots tonen de Mac-versie, maar de stappen zijn in principe gelijk voor 
+de Windows-versie. Nadat je de Dev Desktop hebt gestart krijg je het volgende 
+scherm te zien:
 
 ![Scherm voor eerste keer starten Dev
 Desktop.](../_static/images/devenv/installation-manual/image16.png)
 
-Omdat we nog geen Drupal 8 website hebben, kiezen we hier voor de eerste optie
-om deze te installeren; *Start from scratch, I don't have an existing Drupal site*.
+Kies voor de tweede optie; *Start with an existing Drupal site located on my 
+computer*.
 
-![](../_static/images/devenv/installation-manual/image7.png)
+In het scherm dat je te zien krijgt klik je rechts naast het veld *Local 
+codebase folder* op *Change...*. Je kiest nu de locatie uit waar je de 
+Drupal-bestanden hebt neergezet. Dev Desktop vult nu een aantal velden in aan de 
+hand van je keuze.
 
-In de lijst die je vervolgens te zien krijgt, kies je *Drupal 8* en klik je op
-*install*.
-
-Het kan zijn de de versie bij jou anders is dan hier afgebeeld, dat is niet erg.
+* Kies als PHP-versie 7.0. Voor de PHP-versie zie je drie getallen, bijvoorbeeld 
+  7.0.14. Het laatste getal, de zogenaamde patch versie, maakt hierbij niet 
+  zoveel uit. Is er geen 7.0-variant beschikbaar, dan is een hogere versie 
+  (bijv. 7.1 of 7.2) ook goed.
+* Controleer dat bij Database staat *Create a new database*.
 
 ![](../_static/images/devenv/installation-manual/image20.png)
 
-Geef je nieuwe Drupal website een naam. Je kan 'drupal-8-2-6' laten staan, maar
-kan hier ook je eigen site naam opgeven. (Dit mag je ook voor de database doen,
-maar let op dat je alleen gewone tekens gebruikt en geen spaties). Klik op
-*Finish* als je klaar bent om verder te gaan.
+Klik op OK. Het kan zijn dat je Mac vraagt om je wachtwoord. Dit is omdat het 
+hosts bestand aangepast moet worden, zodat je browser de lokale Drupal-website 
+kan vinden.
+
+Het is gelukt! De website staat klaar voor jou om ermee aan de slag te
+gaan. Klik op het linkje bij *Local site* om aan het laatste onderdeel van de
+installatie te beginnen.
 
 ![](../_static/images/devenv/installation-manual/image14.png)
-
-Yes! Het is gelukt! De website staat klaar voor jou om ermee aan de slag te
-gaan. Klik op het linkje bij *Local site* om aan het laatste onderdeel van de
-installatie te beginnen&hellip;
 
 De installatie - deel 3
 -----------------------
