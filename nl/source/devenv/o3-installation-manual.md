@@ -1,160 +1,234 @@
 Installeer Drupal op je computer
 ================================
-Dit is de installatiehandleiding voor de Acquia Dev Desktop op een mac. Heb je 
-Windows, dan kan je [hier]() terecht. De installatie verloopt in drie stappen:
+Om Drupal te kunnen gebruiken op je eigen computer of laptop zijn er een aantal
+stappen nodig:
 
 1. Er moeten een webserver en databaseserver op je systeem geïnstalleerd worden.
 2. De Drupal 8 bestanden moeten geïnstalleerd worden.
 3. Drupal 8 moet zijn eigen database installeren.
 
-We werken bij *Drupal in a Day* met de Acquia Dev Desktop. Deze kun je 
-downloaden op de [download-pagina van het Acquia Developer 
-Center](https://dev.acquia.com/downloads).
+We werken bij *Drupal in a Day* met de *Acquia Dev Desktop*. In dit hoofdstuk
+vind je instructies voor het installeren van de Dev Desktop op zowel Windows als
+Mac. Maak je gebruik van een ander systeem, bijv. Linux, dan kun je gewoon
+meedoen met het cursusgedeelte van *Drupal in a Day*, maar je bent wel op jezelf
+aangewezen voor het installeren van de benodigde software. Grofweg zijn de
+bovenstaande drie stappen hetzelfde. Heb je eenmaal een webserver en database
+draaiend en heb je de Drupal-distributie voor *Drupal in a Day* gedownload, dan
+zijn de stappen voor het installeren van Drupal ook gelijk en kun je verder bij
+de sectie [Drupal installeren](#drupal-installeren).
 
-Kies voor *Mac Download* en wacht tot het bestand is gedownload. Dubbelklik het
-dan om de disk image te openen.
+De Acquia Dev Desktop kun je downloaden op de [download-pagina van het Acquia
+Developer Center](https://dev.acquia.com/downloads). Kies voor *Mac Download* of
+*Win Download*, afhankelijk van het systeem waar je het op gaat installeren.
 
 Web server en database installeren
 --------------------
-Eerst gaan we de Dev Desktop op je computer installeren zodat de webserver en de 
-databaseserver op je systeem komen te staan. Nadat je de disk image geopend hebt
-kun je de Installer starten (dubbelklik op het blauwe icoontje genaamd 
-*Acquia Dev Desktop Installer*):
+### Mac
+Als de download klaar is open je op het bestand (disk image). Dubbelklik nu op 
+het blauwe icoontje genaamd *Acquia Dev Desktop Installer* om de installer te 
+starten:
 
-![Finder-venster met de inhoud van het Acquia Dev Desktop disk 
+![Finder-venster met de inhoud van het Acquia Dev Desktop disk
 image.](../_static/images/devenv/installation-manual/image12.png)
 
-Het kan zijn dat je daarop een foutmelding te zien krijgt omdat het bestand
-afkomstig is van een onbekende ontwikkelaar. Dit is een veiligheidsmaatregel van 
-Apple.
- 
-![Popup die aangeeft dat de installer geblokkeerd 
+Waarschijnlijk krijg je nu een foutmelding te zien omdat het bestand afkomstig 
+is van een voor Apple onbekende ontwikkelaar.
+
+![Popup die aangeeft dat de installer geblokkeerd
 is.](../_static/images/devenv/installation-manual/image8.png)
 
-Krijg je deze foutmelding te zien, dan open je eerst *Systeemvoorkeuren* 
-(*System Preferences*). Hier kies je voor *Veiligheid & Privacy* (*Security & 
-Privacy*). Daar vind je je onder het tabje *Algemeen* (*General*) een tekst 
-die aangeeft dat Acquia Dev Desktop geblokkeerd is. Ernaast staat een 
+Krijg je deze foutmelding te zien, dan klik je deze eerst weg door op *OK* te 
+klikken. Hierna open je *Systeemvoorkeuren*
+(*System Preferences*). Hier kies je voor *Veiligheid & Privacy* (*Security &
+Privacy*).
+
+![Systeemvoorkeuren met Veiligheid & Privacy gemarkeerd.](../_static/images/devenv/installation-manual/image21.png)
+
+Daar vind je je onder het tabje *Algemeen* (*General*) een tekst
+die aangeeft dat Acquia Dev Desktop geblokkeerd is. Ernaast staat een
 knop om de installer alsnog te starten. Klik op die knop.
 
-![Veiligheid & Privacy systeemvoorkeuren met melding dat Dev Desktop is 
+![Veiligheid & Privacy systeemvoorkeuren met melding dat Dev Desktop is
 geblokkeerd.](../_static/images/devenv/installation-manual/image3.png)
 
-De Installer zal nu openen.
+Je krijgt nu normaals een waarschuwing, maar nu kun je *Open* kiezen. Je Mac zal 
+je enkele keren vragen om je wachtwoord om de Installer op te slaan als 
+goedgekeurd programma. Hierna zal de installer starten.
 
-![Openingscherm van Dev Desktop 
+![Openingscherm van Dev Desktop
 Installer.](../_static/images/devenv/installation-manual/image19.png)
 
-Klik op *Next* om de installatie te starten.
+Klik op *Next* om de installatie te starten. Je krijgt een samenvatting te zien 
+van de software die op je computer geïnstalleerd gaat worden. Ga verder door op 
+*Next* te klikken.
 
-![Overzicht van software die Dev Desktop zal 
+![Overzicht van software die Dev Desktop zal
 installeren.](../_static/images/devenv/installation-manual/image17.png)
 
-Je krijgt een samenvatting te zien van de software die op je computer 
-geïnstalleerd gaat worden. Ga verder door op *Next* te klikken.
+De installer toont de algemene voorwaarden en geeft je de keuze om wel of niet
+data omtrend het gebruik van de Dev Desktop te delen met Acquia. Die keuze is
+aan jou! Als je gekozen hebt, kan je *Next* klikken om verder te gaan.
 
 ![Scherm met algemene voorwaarden.](../_static/images/devenv/installation-manual/image6.png)
 
-De installer toont de algemene voorwaarden en geeft je de keuze om wel of niet 
-data omtrend het gebruik van de Dev Desktop te delen met Acquia. Die keuze is 
-aan jou! Als je gekozen hebt, kan je *Next* klikken om verder te gaan.
+Je krijgt nu je de mogelijkheid om de locatie van de installatiebestanden te 
+kiezen. Laat de standaard-instellingen staan, tenzij je een andere voorkeur hebt 
+(en je weet wat je doet). Kies daarna weer voor *Next* om verder te gaan.
 
-![Scherm met keuze van locaties voor programmabestanden en sites 
-map.](../_static/images/devenv/installation-manual//image5.png)
+![Scherm met keuze van locaties voor programmabestanden en sites
+map.](../_static/images/devenv/installation-manual/image5.png)
 
-Hier kan je aangeven waar dat de installer de files moet plaatsen op je 
-computer. Indien gewenst (en je weet wat je doet) dan kun je die aanpassen. Kies 
-daarna weer voor *Next* om 
-verder te gaan.
- 
+Vervolgens wordt je gevraagd welke poorten er gebruikt mogen worden voor de
+webserver en de database. Ook hier geldt dat de standaard instellingen 
+overgenomen kunnen worden als je geen speciale reden hebt om ze aan te passen.
+Klik op *Next* om verder te gaan.
+
 ![Scherm voor instellen poorten voor HTTP, HTTPS en MySQL.](../_static/images/devenv/installation-manual/image2.png)
 
-Vervolgens wordt je gevraagd welke poorten er gebruikt mogen worden voor de 
-webserver en de database. Deze staan goed ingevuld, maar als weet wat je 
-doet dan mogen ze hier aangepast worden. Klik op *Next* om verder te gaan. 
+De installer toon nog een laatste keer een overzicht van je keuzes. Als ze goed 
+staan kan je op *Next* klikken om verder te gaan. 
 
 ![Controlescherm voor keuze poorten.](../_static/images/devenv/installation-manual/image10.png)
 
-De Dev Desktop toont nogmaals de poorten. Als ze goed staan kan je op *Next* 
-klikken om verder te gaan.
-
-![Scherm dat aangeeft dat de installatie begonnen kan 
-worden.](../_static/images/devenv/installation-manual/image11.png)
-
-De Dev Desktop installer is nu helemaal klaar om te gaan installeren. Klik op 
+De Dev Desktop installer is nu helemaal klaar om te gaan installeren. Klik op
 *Next* om het installeren te starten.
 
-![Voortgangsscherm tijdens installatie.](../_static/images/devenv/installation-manual/image18.png)
+![Scherm dat aangeeft dat de installatie begonnen kan
+worden.](../_static/images/devenv/installation-manual/image11.png)
 
 Pak iets te drinken terwijl je computer druk bezig is met installeren.
 
-![Laatste scherm installatie Dev 
+![Voortgangsscherm tijdens installatie.](../_static/images/devenv/installation-manual/image18.png)
+
+Het is zover! De Dev Desktop is op je computer geïnstalleerd. Klik het vinkje 
+**uit** waar *Launch Acquia Dev Desktop after clicking Finish* bij staat, want we 
+gaan eerst Drupal zelf downloaden.
+
+![Laatste scherm installatie Dev
 Desktop.](../_static/images/devenv/installation-manual/image15.png)
 
-Het is zover! De Dev Desktop is op je computer geïnstalleerd. Klik op *Finish*
-om de Dev Desktop op te starten en ga door met het tweede deel van de 
-installatiehandleiding om je eigen Drupal 8 site te installeren.
+### Windows
+TODO.
 
-Drupal-distributie kiezen
------------------------
-Nu de webserver en database op je systeem geïnstalleerd zijnis, volgen de 
-stappen om een Drupal 8 website te installeren op je systeem. Als je de 
-Dev Desktop nog niet opgestart had, doe dat dan nu. Je krijgt het volgende 
+Drupal downloaden en klaarmaken voor installatie
+-----------------
+Nu de webserver en database op je systeem geïnstalleerd zijn, moeten we de 
+bestanden van Drupal op je computer gaan zetten. De Dev Desktop biedt de 
+mogelijkheid om dit voor je te doen voor de standaard versie van Drupal en voor
+een aantal populaire *distributies*. Voor *Drupal in a Day* maken we gebruik van 
+een aparte distributie. Deze gaan we nu downloaden.
+
+Ga naar [https://github.com/drupalinaday/did-training-distro](https://github.com/drupalinaday/did-training-distro).
+
+TODO. Localiseren van de laatste versie op Github of misschien Drupal in a 
+Day-site.
+ 
+Download de laatste versie in zip-formaat en pak deze uit. Verplaats de 
+uitgepakte naar een locatie waar de webserver ze kan vinden, in een aparte 
+directory. Als je gebruik maakt van de Acquia Dev Desktop en de standaard 
+locaties hebt gebruikt dan zal dat bijvoorbeeld zijn: 
+
+* /Users/(jouw account)/Sites/devdesktop/drupalinaday op Mac
+* C:\\???\devdesktop\drupalinaday op Windows
+
+Start nu de Acquia Dev Desktop. 
+
+* Op de Mac kun je deze vinden in de map *Applicaties* (*Applications*) onder 
+*DevDesktop*.
+* Op Windows kun je deze vinden ...
+
+***Maak je geen gebruik van de Dev Desktop**, zorg er dan voor dat je een lokale 
+website hebt die de directory waar de Drupal-bestanden staan als web root 
+gebruikt. Maak ook een database aan voor gebruik met de Drupal-installatie. Je 
+kunt dan verder gaan met de stap [Drupal installeren](#drupal-installeren).*
+
+De screenshots tonen de Mac-versie, maar de stappen zijn in principe gelijk voor 
+de Windows-versie. Nadat je de Dev Desktop hebt gestart krijg je het volgende 
 scherm te zien:
 
-![Scherm voor eerste keer starten Dev 
+![Scherm voor eerste keer starten Dev
 Desktop.](../_static/images/devenv/installation-manual/image16.png)
 
-Omdat we nog geen Drupal 8 website hebben, kiezen we hier voor de eerste optie 
-om deze te installeren.
+Kies voor de tweede optie; *Start with an existing Drupal site located on my 
+computer*.
 
-![](../_static/images/devenv/installation-manual/image7.png)
+In het scherm dat je te zien krijgt klik je rechts naast het veld *Local 
+codebase folder* op *Change...*. Je kiest nu de locatie uit waar je de 
+Drupal-bestanden hebt neergezet. Dev Desktop vult nu een aantal velden in aan de 
+hand van je keuze.
 
-In de lijst die je vervolgens te zien krijgt, kies je *Drupal 8* en klik je op 
-*install*. 
-
-Het kan zijn de de versie bij jou anders is dan hier afgebeeld, dat is niet erg.
+* Kies als PHP-versie 7.0. Voor de PHP-versie zie je drie getallen, bijvoorbeeld 
+  7.0.14. Het laatste getal, de zogenaamde patch versie, maakt hierbij niet 
+  zoveel uit. Is er geen 7.0-variant beschikbaar, dan is een hogere versie 
+  (bijv. 7.1 of 7.2) ook goed.
+* Controleer dat bij Database staat *Create a new database*.
 
 ![](../_static/images/devenv/installation-manual/image20.png)
 
-Geef je nieuwe Drupal website een naam. Je kan 'drupal-8-2-6' laten staan, maar 
-kan hier ook je eigen site naam opgeven. (Dit mag je ook voor de database doen, 
-maar let op dat je alleen gewone tekens gebruikt en geen spaties). Klik op 
-*Finish* als je klaar bent om verder te gaan.
+Klik op OK. Het kan zijn dat je Mac vraagt om je wachtwoord. Dit is omdat het 
+hosts bestand aangepast moet worden, zodat je browser de lokale Drupal-website 
+kan vinden.
+
+Het is gelukt! De website staat klaar voor jou om ermee aan de slag te
+gaan. Klik op het linkje bij *Local site* om aan het laatste onderdeel van de
+installatie te beginnen.
 
 ![](../_static/images/devenv/installation-manual/image14.png)
 
-Yes! Het is gelukt! De website staat klaar voor jou om ermee aan de slag te 
-gaan. Klik op het linkje bij *Local site* om aan het laatste onderdeel van de 
-installatie te beginnen&hellip;
-
-De installatie - deel 3
+Drupal installeren
 -----------------------
-De Drupal 8 bestanden staan nu op je computer. Het laatste wat moet gebeuren is 
-dat Drupal zichzelf installeert. Dat gaan we nu doen. Als je de link in de Dev 
-Desktop hebt aangeklikt opent je webbrowser zich en verschijnt de Drupal 
-installatie pagina.
+De Drupal 8 bestanden staan nu op je computer. Het laatste wat moet gebeuren is
+de installatie van Drupal zelf. Hierbij wordt de database gevuld met de 
+benodigde tabellen en instellingen. Dat gaan we nu doen. Als je de link in de 
+Dev Desktop hebt aangeklikt opent je webbrowser zich en verschijnt de
+installatie-pagina van Drupal.
 
 ![](../_static/images/devenv/installation-manual/image4.png)
 
 Kies hier jouw taal en klik op *Save and Continue*.
 
-**Belangrijk**: als je een andere taal kiest, moet je zorgen dat jouw systeem 
-een actieve internet verbinden heeft zodat het de juiste vertaling kan 
-downloaden.
+**Belangrijk.** Als je een andere taal dan Engels kiest, dan moet je zorgen dat 
+je systeem een actieve internet-verbinding heeft zodat het de juiste vertaling 
+kan downloaden.
+
+TODO. Stap om profiel te kiezen, of profiel forceren in installatie. Evt. hier
+nog een opmerking dat op deze plek in de installatie Drupal meestal vraagt om 
+een profiel te kiezen.
+
+De installatie wordt nu gestart.
 
 ![](../_static/images/devenv/installation-manual/image1.png)
 
-Drupal gaat aan de slag om zichzelf te installeren&hellip;
- 
+Nadat de installatie enige tijd gedraaid heeft wil het installatie-script een 
+aantal instellingen weten om de installatie te kunnen voltooien. 
+
 ![](../_static/images/devenv/installation-manual/image9.png)
 
-De laatste stap voor je aan de slag kan. Vul hier alle gegevens voor je website 
-in. In de cursus leggen we uit hoe je deze informatie later kan aanpassen.
+De laatste stap voor je aan de slag kan. Vul hier alle gegevens voor je website
+in.
 
-Klik op *Finish* om af te ronden en je eigen Drupal website te zien.
+* Kies een naam voor je website, bijv. *Drupal in a Day*.
+* Stel een email-adres in. Dit is het email-adres dat gebruikt zou worden bij 
+  het versturen van geautomatiseerde emails, je kunt hier je eigen email-adres 
+  voor gebruiken. Er moet wel een geldig email-adres ingevuld worden, of 
+  tenminste iets dat daarop lijkt. Pas op met "flauwekul" adressen, want het zal 
+  je verbazen welke domeinen er allemaal geregistreerd zijn en welke 
+  email-adressen dus potentieel echt bestaan. 
+* Stel een gebruikersnaam in voor de beheerdersaccount die automatisch wordt 
+  aangemaakt, bijv. *admin*.
+* Kies een wachtwoord dat je makkelijk kunt onthouden, bijv. *password*. Het 
+  hoeft geen veilig wachtwoord te zijn, want de site is alleen toegankelijk op 
+  je eigen computer. *Houdt er rekening mee dat je wel een sterk wachtwoord 
+  instelt als je de site ooit online zou zetten.*
+* Noteer gebruikersnaam en wachtwoord ergens zodat je deze niet vergeet. Met
+  extra tools is het mogelijk om weer toegang te krijgen tot een Drupal-site 
+  waarvan de gegevens van het beheerdersaccount kwijt zijn, maar die hebben we
+  hier niet beschikbaar.
+
+
+Klik op *Opslaan en doorgaan* (*Save and Continue*) om af te ronden en je eigen Drupal website te zien.
 
 ![](../_static/images/devenv/installation-manual/image13.png)
 
-Et Voila! Drupal 8 is geïnstalleerd. Je kan aan de slag. Ga naar [stap 1 van de
+Gefeliciteerd, Drupal is geïnstalleerd, je kan aan de slag. Ga naar [stap 1 van de
 basiscursus]() om aan de slag te gaan!
