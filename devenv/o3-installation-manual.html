@@ -1,0 +1,465 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Installeer Drupal op je computer &mdash; Drupal in a Day Documentation 1.0 documentatie</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Zoeken" href="../search.html"/>
+    <link rel="top" title="Drupal in a Day Documentation 1.0 documentatie" href="../index.html"/>
+        <link rel="prev" title="Systeemeisen" href="o1-requirements.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Drupal in a Day Documentation
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Inhoud:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="o1-requirements.html">Systeemeisen</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Installeer Drupal op je computer</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#web-server-en-database-installeren">Web server en database installeren</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#starten-van-de-installer">Starten van de Installer</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#mac">Mac</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#windows">Windows</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#vervolg-van-de-installatie">Vervolg van de installatie</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#mac-en-windows">Mac en Windows</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#drupal-downloaden-en-klaarmaken-voor-installatie">Drupal downloaden en klaarmaken voor installatie</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#drupal-installeren">Drupal installeren</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Drupal in a Day Documentation</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Installeer Drupal op je computer</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/devenv/o3-installation-manual.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="installeer-drupal-op-je-computer">
+<span id="installeer-drupal-op-je-computer"></span><h1>Installeer Drupal op je computer<a class="headerlink" href="#installeer-drupal-op-je-computer" title="Permalink naar deze titel">¶</a></h1>
+<p>Om Drupal te kunnen gebruiken op je eigen computer of laptop zijn er een aantal
+stappen nodig:</p>
+<ol class="simple">
+<li>Er moeten een webserver en databaseserver op je systeem geïnstalleerd worden.</li>
+<li>De Drupal 8 bestanden moeten geïnstalleerd worden.</li>
+<li>Drupal 8 moet zijn eigen database installeren.</li>
+</ol>
+<p>We werken bij <em>Drupal in a Day</em> met de <em>Acquia Dev Desktop</em>. In dit hoofdstuk
+vind je instructies voor het installeren van de Dev Desktop op zowel Windows als
+Mac. Maak je gebruik van een ander systeem, bijv. Linux, dan kun je gewoon
+meedoen met het cursusgedeelte van <em>Drupal in a Day</em>, maar je bent wel op jezelf
+aangewezen voor het installeren van de benodigde software. Grofweg zijn de
+bovenstaande drie stappen hetzelfde. Heb je eenmaal een webserver en database
+draaiend en heb je de Drupal-distributie voor <em>Drupal in a Day</em> gedownload, dan
+zijn de stappen voor het installeren van Drupal ook gelijk en kun je verder bij
+de sectie <a class="reference external" href="#drupal-downloaden-en-klaarmaken-voor-installatie">Drupal downloaden en klaarmaken voor installatie</a>.</p>
+<p>Ook als je wel een Mac of Windows-machine hebt, maar gebruik maakt van een
+andere oplossing om PHP-sites te draaien, dan kun je daar in principe gebruik
+van maken. Echter ben je ook dan op jezelf aangewezen bij eventuele problemen
+die daaruit voortvloeien. Het is het overwegen waard om Dev Desktop naast je
+eigen oplossing te installeren. Dev Desktop installeert zijn componenten op een
+aparte locatie en gebruikt geen standaard poorten, dus het is goed mogelijk om
+het te installeren naast andere oplossingen.</p>
+<p>De Acquia Dev Desktop kun je downloaden op de <a class="reference external" href="https://dev.acquia.com/downloads">download-pagina van het Acquia
+Developer Center</a>. Kies voor <em>Mac Download</em> of
+<em>Win Download</em>, afhankelijk van het systeem waar je het op gaat installeren.</p>
+<div class="section" id="web-server-en-database-installeren">
+<span id="web-server-en-database-installeren"></span><h2>Web server en database installeren<a class="headerlink" href="#web-server-en-database-installeren" title="Permalink naar deze titel">¶</a></h2>
+<p>Hieronder vind je het installatieproces van de Acquia Dev Desktop voor Mac en
+Windows. De installatieprocedure is vrijwel gelijk voor Mac en Windows. Als er
+afwijkingen zijn zullen we die benoemen. De screenshots zijn gemaakt op een Mac
+die draait op macOS High Sierra. Gebruik je een andere versie, of gebruik je
+Windows, dan zullen de schermen er iets anders uit zien.</p>
+<div class="section" id="starten-van-de-installer">
+<span id="starten-van-de-installer"></span><h3>Starten van de Installer<a class="headerlink" href="#starten-van-de-installer" title="Permalink naar deze titel">¶</a></h3>
+<p>De eerste stappen om de installatie te starten zijn op Mac en Windows iets
+anders.</p>
+<div class="section" id="mac">
+<span id="mac"></span><h4>Mac<a class="headerlink" href="#mac" title="Permalink naar deze titel">¶</a></h4>
+<p>Als de download klaar is open je het bestand (disk image).</p>
+<p><img alt="Finder-venster met de inhoud van het Acquia Dev Desktop diskimage." src="../_images/image12.png" /></p>
+<p>Dubbelklik nu op het blauwe icoontje genaamd <em>Acquia Dev Desktop Installer</em> om
+de installer te starten.</p>
+<p>Waarschijnlijk krijg je nu een waarschuwing te zien dat het bestand afkomstig
+is van een voor Apple onbekende ontwikkelaar.</p>
+<p><img alt="Popup die aangeeft dat de installer geblokkeerdis." src="../_images/image8.png" /></p>
+<p>Krijg je deze waarschuwing te zien, dan klik je deze eerst weg door op <em>OK</em> te
+klikken. Hierna open je <em>Systeemvoorkeuren</em>
+(<em>System Preferences</em>), bijvoorbeeld door te klikken op het Apple-logo
+linksboven in de menu-balk en de betreffende optie te kiezen in het dropdown
+menu. Hier kies je voor <em>Veiligheid &amp; Privacy</em> (<em>Security &amp;
+Privacy</em>).</p>
+<p><img alt="Systeemvoorkeuren met Veiligheid &amp; Privacy gemarkeerd." src="../_images/image21.png" /></p>
+<p>Daar vind je je onder het tabje <em>Algemeen</em> (<em>General</em>) een tekst
+die aangeeft dat Acquia Dev Desktop geblokkeerd is. Ernaast staat een
+knop om de installer alsnog te starten. Klik op die knop.</p>
+<p><img alt="Veiligheid &amp; Privacy systeemvoorkeuren met melding dat Dev Desktop isgeblokkeerd." src="../_images/image3.png" /></p>
+<p>Je krijgt nu nogmaals een waarschuwing, maar nu kun je <em>Open</em> kiezen. Je Mac zal
+je enkele keren vragen om je wachtwoord om de Installer op te slaan als
+goedgekeurd programma. Hierna zal de installer starten.</p>
+<p><img alt="Openingscherm van Dev DesktopInstaller." src="../_images/image19.png" /></p>
+<p>Klik op <em>Next</em> om de installatie te starten.</p>
+</div>
+<div class="section" id="windows">
+<span id="windows"></span><h4>Windows<a class="headerlink" href="#windows" title="Permalink naar deze titel">¶</a></h4>
+<p>Als de download klaar is open je de installer (als je er niet voor gekozen hebt
+om de installer meteen te starten bij het downloaden). Waarschijnlijk krijg je
+eerst een waarschuwing te zien met de vraag of de installer wijzigingen mag
+aanbrengen aan je systeem.</p>
+<p><img alt="Dialoogvenster van Windows met de vraag of de installer wijzigingen magaanbrengen." src="../_images/image22.png" /></p>
+<p>Antwoord met ja. De installer zal je nu vragen welke componenten je wilt
+installeren.</p>
+<p><img alt="Installer vraagt welke componenten te installeren." src="../_images/image23.png" /></p>
+<p>Je kunt dit zo laten staan. Klik op <em>Next</em>.</p>
+</div>
+</div>
+<div class="section" id="vervolg-van-de-installatie">
+<span id="vervolg-van-de-installatie"></span><h3>Vervolg van de installatie<a class="headerlink" href="#vervolg-van-de-installatie" title="Permalink naar deze titel">¶</a></h3>
+<div class="section" id="mac-en-windows">
+<span id="mac-en-windows"></span><h4>Mac en Windows<a class="headerlink" href="#mac-en-windows" title="Permalink naar deze titel">¶</a></h4>
+<p>Zowel op Mac als op Windows krijg je nu een samenvatting te zien
+van de software die op je computer geïnstalleerd gaat worden.</p>
+<p><img alt="Overzicht van software die Dev Desktop zalinstalleren." src="../_images/image17.png" /></p>
+<p>Ga verder door op <em>Next</em> te klikken.</p>
+<p>De installer toont de algemene voorwaarden en geeft je de keuze om wel of niet
+data omtrend het gebruik van de Dev Desktop te delen met Acquia. Die keuze is
+aan jou!</p>
+<p><img alt="Scherm met algemene voorwaarden." src="../_images/image6.png" /></p>
+<p>Als je gekozen hebt, kan je <em>Next</em> klikken om verder te gaan.</p>
+<p>Je krijgt nu je de mogelijkheid om de locatie van de installatiebestanden te
+kiezen (screenshot voor Mac, op Windows wijken de locaties af).</p>
+<p><img alt="Scherm met keuze van locaties voor programmabestanden en sitesmap." src="../_images/image5.png" /></p>
+<p>Laat de standaard-instellingen staan, tenzij je een andere voorkeur hebt
+(en je weet wat je doet). Kies daarna weer voor <em>Next</em> om verder te gaan.</p>
+<p>Vervolgens wordt je gevraagd welke poorten er gebruikt mogen worden voor de
+webserver en de database.</p>
+<p><img alt="Scherm voor instellen poorten voor HTTP, HTTPS en MySQL." src="../_images/image2.png" /></p>
+<p>Ook hier geldt dat de standaard instellingen overgenomen kunnen worden als je
+geen speciale reden hebt om ze aan te passen. Klik op <em>Next</em> om verder te gaan.</p>
+<p>De installer toon nog een laatste keer een overzicht van je keuzes.</p>
+<p><img alt="Controlescherm voor keuze poorten." src="../_images/image10.png" /></p>
+<p>Als ze goed staan kan je op <em>Next</em> klikken om verder te gaan.</p>
+<p>De Dev Desktop installer is nu helemaal klaar om te gaan installeren.</p>
+<p><img alt="Scherm dat aangeeft dat de installatie begonnen kanworden." src="../_images/image11.png" /></p>
+<p>Klik op <em>Next</em> om het installeren te starten.</p>
+<p>Pak iets te drinken terwijl je computer druk bezig is met installeren.</p>
+<p><img alt="Voortgangsscherm tijdens installatie." src="../_images/image18.png" /></p>
+<p>Het is zover! De Dev Desktop is op je computer geïnstalleerd. Klik het vinkje
+<strong>uit</strong> waar <em>Launch Acquia Dev Desktop after clicking Finish</em> bij staat, want we
+gaan eerst Drupal zelf downloaden.</p>
+<p><img alt="Laatste scherm installatie DevDesktop." src="../_images/image15.png" /></p>
+</div>
+</div>
+</div>
+<div class="section" id="drupal-downloaden-en-klaarmaken-voor-installatie">
+<span id="drupal-downloaden-en-klaarmaken-voor-installatie"></span><h2>Drupal downloaden en klaarmaken voor installatie<a class="headerlink" href="#drupal-downloaden-en-klaarmaken-voor-installatie" title="Permalink naar deze titel">¶</a></h2>
+<p>Nu de webserver en database op je systeem geïnstalleerd zijn, moeten we de
+bestanden van Drupal op je computer gaan zetten. De Dev Desktop biedt de
+mogelijkheid om dit voor je te doen voor de standaard versie van Drupal en voor
+een aantal populaire <em>distributies</em>. Voor <em>Drupal in a Day</em> maken we gebruik van
+een aparte distributie. Deze gaan we nu downloaden.</p>
+<p>Ga naar <a class="reference external" href="https://github.com/drupalinaday/did-training-distro">https://github.com/drupalinaday/did-training-distro</a>.</p>
+<p>TODO. Localiseren van de laatste versie op Github of misschien Drupal in a
+Day-site.</p>
+<p>Download de laatste versie in zip-formaat en pak deze uit. Verplaats de
+uitgepakte bestanden naar een locatie waar de webserver ze kan vinden, in een
+aparte directory. Als je gebruik maakt van de Acquia Dev Desktop en de standaard
+locaties hebt gebruikt dan zal dat bijvoorbeeld zijn:</p>
+<ul class="simple">
+<li>Mac: /Users/(jouw account)/Sites/devdesktop/drupalinaday</li>
+<li>Windows: C:\Users(jouw account)\Sites\devdesktop\drupalinaday</li>
+</ul>
+<p>Start nu de Acquia Dev Desktop.</p>
+<ul class="simple">
+<li>Op de Mac kun je deze vinden in de map <em>Applicaties</em> (<em>Applications</em>) onder
+<em>DevDesktop</em>.</li>
+<li>Op Windows kun je deze vinden in de map
+<em>C:\Program Files (x86)\DevDesktop\AcquiaDevDesktop</em></li>
+</ul>
+<p><em><strong>Maak je geen gebruik van de Dev Desktop</strong>, zorg er dan voor dat je een lokale
+website hebt die de directory waar de Drupal-bestanden staan als web root
+gebruikt. Maak ook een database aan voor gebruik met de Drupal-installatie. Je
+kunt dan verder gaan met de stap <a class="reference external" href="#drupal-installeren">Drupal installeren</a>.</em></p>
+<p>De screenshots tonen de Mac-versie, maar de stappen zijn in principe gelijk voor
+de Windows-versie. Nadat je de Dev Desktop hebt gestart krijg je het volgende
+scherm te zien:</p>
+<p><img alt="Scherm voor eerste keer starten DevDesktop." src="../_images/image16.png" /></p>
+<p>Kies voor de tweede optie; <em>Start with an existing Drupal site located on my
+computer</em>.</p>
+<p>In het scherm dat je te zien krijgt klik je rechts naast het veld <em>Local
+codebase folder</em> op <em>Change...</em>. Je kiest nu de locatie uit waar je de
+Drupal-bestanden hebt neergezet. Dev Desktop vult nu een aantal velden in aan de
+hand van je keuze.</p>
+<ul class="simple">
+<li>Kies als PHP-versie 7.0. Voor de PHP-versie zie je drie getallen, bijvoorbeeld
+7.0.14. Het laatste getal, de zogenaamde patch versie, maakt hierbij niet
+zoveel uit. Is er geen 7.0-variant beschikbaar, dan is een hogere versie
+(bijv. 7.1 of 7.2) ook goed.</li>
+<li>Controleer dat bij Database staat <em>Create a new database</em>.</li>
+</ul>
+<p><img alt="" src="../_images/image20.png" /></p>
+<p>Klik op OK. Het kan zijn dat je Mac vraagt om je wachtwoord. Dit is omdat het
+hosts bestand aangepast moet worden, zodat je browser de lokale Drupal-website
+kan vinden.</p>
+<p>Het is gelukt! De website staat klaar voor jou om ermee aan de slag te
+gaan. Klik op het linkje bij <em>Local site</em> om aan het laatste onderdeel van de
+installatie te beginnen.</p>
+<p><img alt="" src="../_images/image14.png" /></p>
+</div>
+<div class="section" id="drupal-installeren">
+<span id="drupal-installeren"></span><h2>Drupal installeren<a class="headerlink" href="#drupal-installeren" title="Permalink naar deze titel">¶</a></h2>
+<p>De Drupal 8 bestanden staan nu op je computer. Het laatste wat moet gebeuren is
+de installatie van Drupal zelf. Hierbij wordt de database gevuld met de
+benodigde tabellen en instellingen. Dat gaan we nu doen. Als je de link in de
+Dev Desktop hebt aangeklikt opent je webbrowser zich en verschijnt de
+installatie-pagina van Drupal.</p>
+<p><img alt="" src="../_images/image4.png" /></p>
+<p>Kies hier jouw taal en klik op <em>Save and Continue</em>.</p>
+<p><strong>Belangrijk.</strong> Als je een andere taal dan Engels kiest, dan moet je zorgen dat
+je systeem een actieve internet-verbinding heeft zodat het de juiste vertaling
+kan downloaden.</p>
+<p>TODO. Stap om profiel te kiezen, of profiel forceren in installatie. Evt. hier
+nog een opmerking dat op deze plek in de installatie Drupal meestal vraagt om
+een profiel te kiezen.</p>
+<p>De installatie wordt nu gestart.</p>
+<p><img alt="" src="../_images/image1.png" /></p>
+<p>Nadat de installatie enige tijd gedraaid heeft wil het installatie-script een
+aantal instellingen weten om de installatie te kunnen voltooien.</p>
+<p><img alt="" src="../_images/image9.png" /></p>
+<p>De laatste stap voor je aan de slag kan. Vul hier alle gegevens voor je website
+in.</p>
+<ul class="simple">
+<li>Kies een naam voor je website, bijv. <em>Drupal in a Day</em>.</li>
+<li>Stel een email-adres in. Dit is het email-adres dat gebruikt zou worden bij
+het versturen van geautomatiseerde emails, je kunt hier je eigen email-adres
+voor gebruiken. Er moet wel een geldig email-adres ingevuld worden, of
+tenminste iets dat daarop lijkt. Pas op met &quot;flauwekul&quot; adressen, want het zal
+je verbazen welke domeinen er allemaal geregistreerd zijn en welke
+email-adressen dus potentieel echt bestaan.</li>
+<li>Stel een gebruikersnaam in voor de beheerdersaccount die automatisch wordt
+aangemaakt, bijv. <em>admin</em>.</li>
+<li>Kies een wachtwoord dat je makkelijk kunt onthouden, bijv. <em>password</em>. Het
+hoeft geen veilig wachtwoord te zijn, want de site is alleen toegankelijk op
+je eigen computer. <em>Houdt er rekening mee dat je wel een sterk wachtwoord
+instelt als je de site ooit online zou zetten.</em></li>
+<li>Noteer gebruikersnaam en wachtwoord ergens zodat je deze niet vergeet. Met
+extra tools is het mogelijk om weer toegang te krijgen tot een Drupal-site
+waarvan de gegevens van het beheerdersaccount kwijt zijn, maar die hebben we
+hier niet beschikbaar.</li>
+</ul>
+<p>Klik op <em>Opslaan en doorgaan</em> (<em>Save and Continue</em>) om af te ronden en je eigen Drupal website te zien.</p>
+<p><img alt="" src="../_images/image13.png" /></p>
+<p>Gefeliciteerd, Drupal is geïnstalleerd, je kan aan de slag. Ga naar <a class="reference external" href="#">stap 1 van de
+basiscursus</a> om aan de slag te gaan!</p>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="o1-requirements.html" class="btn btn-neutral" title="Systeemeisen" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, Drupal in a Day Contributors.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="../_static/translations.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
