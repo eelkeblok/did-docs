@@ -170,18 +170,19 @@ TODO. Localiseren van de laatste versie op Github of misschien Drupal in a
 Day-site.
  
 Download de laatste versie in zip-formaat en pak deze uit. Verplaats de 
-uitgepakte naar een locatie waar de webserver ze kan vinden, in een aparte 
-directory. Als je gebruik maakt van de Acquia Dev Desktop en de standaard 
+uitgepakte bestanden naar een locatie waar de webserver ze kan vinden, in een 
+aparte directory. Als je gebruik maakt van de Acquia Dev Desktop en de standaard
 locaties hebt gebruikt dan zal dat bijvoorbeeld zijn: 
 
-* /Users/(jouw account)/Sites/devdesktop/drupalinaday op Mac
-* C:\\???\devdesktop\drupalinaday op Windows
+* Mac: /Users/(jouw account)/Sites/devdesktop/drupalinaday
+* Windows: C:\Users\(jouw account)\Sites\devdesktop\drupalinaday
 
 Start nu de Acquia Dev Desktop. 
 
 * Op de Mac kun je deze vinden in de map *Applicaties* (*Applications*) onder 
 *DevDesktop*.
-* Op Windows kun je deze vinden ...
+* Op Windows kun je deze vinden in de map 
+  *C:\Program Files (x86)\DevDesktop\AcquiaDevDesktop* 
 
 ***Maak je geen gebruik van de Dev Desktop**, zorg er dan voor dat je een lokale 
 website hebt die de directory waar de Drupal-bestanden staan als web root 
