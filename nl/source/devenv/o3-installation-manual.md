@@ -100,11 +100,12 @@ Je kunt dit zo laten staan. Klik op *Next*.
 ### Vervolg van de installatie
 #### Mac en Windows
 Zowel op Mac als op Windows krijg je nu een samenvatting te zien
-van de software die op je computer geïnstalleerd gaat worden. Ga verder door op 
-*Next* te klikken.
+van de software die op je computer geïnstalleerd gaat worden.
 
 ![Overzicht van software die Dev Desktop zal
 installeren.](../_static/images/devenv/installation-manual/image17.png)
+
+Ga verder door op *Next* te klikken.
 
 De installer toont de algemene voorwaarden en geeft je de keuze om wel of niet
 data omtrend het gebruik van de Dev Desktop te delen met Acquia. Die keuze is
