@@ -17,6 +17,14 @@ draaiend en heb je de Drupal-distributie voor *Drupal in a Day* gedownload, dan
 zijn de stappen voor het installeren van Drupal ook gelijk en kun je verder bij
 de sectie [Drupal installeren](#drupal-installeren).
 
+Ook als je wel een Mac of Windows-machine hebt, maar gebruik maakt van een 
+andere oplossing om PHP-sites te draaien, dan kun je daar in principe gebruik 
+van maken. Echter ben je ook dan op jezelf aangewezen bij eventuele problemen 
+die daaruit voortvloeien. Het is het overwegen waard om Dev Desktop naast je 
+eigen oplossing te installeren. Dev Desktop installeert zijn componenten op een 
+aparte locatie en gebruikt geen standaard poorten, dus het is goed mogelijk om 
+het te installeren naast andere oplossingen.
+
 De Acquia Dev Desktop kun je downloaden op de [download-pagina van het Acquia
 Developer Center](https://dev.acquia.com/downloads). Kies voor *Mac Download* of
 *Win Download*, afhankelijk van het systeem waar je het op gaat installeren.
