@@ -31,7 +31,7 @@ starten:
 ![Finder-venster met de inhoud van het Acquia Dev Desktop disk
 image.](../_static/images/devenv/installation-manual/image12.png)
 
-Waarschijnlijk krijg je nu een foutmelding te zien omdat het bestand afkomstig 
+Waarschijnlijk krijg je nu een waarschuwing te zien dat het bestand afkomstig
 is van een voor Apple onbekende ontwikkelaar.
 
 ![Popup die aangeeft dat de installer geblokkeerd
