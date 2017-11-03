@@ -34,12 +34,13 @@ De eerste stappen om de installatie te starten zijn op Mac en Windows iets
 anders. 
 
 #### Mac
-Als de download klaar is open je op het bestand (disk image). Dubbelklik nu op 
-het blauwe icoontje genaamd *Acquia Dev Desktop Installer* om de installer te 
-starten:
+Als de download klaar is open je het bestand (disk image).
 
 ![Finder-venster met de inhoud van het Acquia Dev Desktop disk
 image.](../_static/images/devenv/installation-manual/image12.png)
+
+Dubbelklik nu op het blauwe icoontje genaamd *Acquia Dev Desktop Installer* om 
+de installer te starten.
 
 Waarschijnlijk krijg je nu een waarschuwing te zien dat het bestand afkomstig
 is van een voor Apple onbekende ontwikkelaar.
@@ -49,7 +50,9 @@ is.](../_static/images/devenv/installation-manual/image8.png)
 
 Krijg je deze foutmelding te zien, dan klik je deze eerst weg door op *OK* te 
 klikken. Hierna open je *Systeemvoorkeuren*
-(*System Preferences*). Hier kies je voor *Veiligheid & Privacy* (*Security &
+(*System Preferences*), bijvoorbeeld door te klikken op het Apple-logo 
+linksboven in de menu-balk en de betreffende optie te kiezen in het dropdown 
+menu. Hier kies je voor *Veiligheid & Privacy* (*Security &
 Privacy*).
 
 ![Systeemvoorkeuren met Veiligheid & Privacy gemarkeerd.](../_static/images/devenv/installation-manual/image21.png)
@@ -113,22 +116,25 @@ Laat de standaard-instellingen staan, tenzij je een andere voorkeur hebt
 (en je weet wat je doet). Kies daarna weer voor *Next* om verder te gaan.
 
 Vervolgens wordt je gevraagd welke poorten er gebruikt mogen worden voor de
-webserver en de database. Ook hier geldt dat de standaard instellingen 
-overgenomen kunnen worden als je geen speciale reden hebt om ze aan te passen.
-Klik op *Next* om verder te gaan.
+webserver en de database.
 
 ![Scherm voor instellen poorten voor HTTP, HTTPS en MySQL.](../_static/images/devenv/installation-manual/image2.png)
 
-De installer toon nog een laatste keer een overzicht van je keuzes. Als ze goed 
-staan kan je op *Next* klikken om verder te gaan. 
+Ook hier geldt dat de standaard instellingen overgenomen kunnen worden als je 
+geen speciale reden hebt om ze aan te passen. Klik op *Next* om verder te gaan.
+
+De installer toon nog een laatste keer een overzicht van je keuzes.
 
 ![Controlescherm voor keuze poorten.](../_static/images/devenv/installation-manual/image10.png)
 
-De Dev Desktop installer is nu helemaal klaar om te gaan installeren. Klik op
-*Next* om het installeren te starten.
+Als ze goed staan kan je op *Next* klikken om verder te gaan. 
+
+De Dev Desktop installer is nu helemaal klaar om te gaan installeren.
 
 ![Scherm dat aangeeft dat de installatie begonnen kan
 worden.](../_static/images/devenv/installation-manual/image11.png)
+
+Klik op *Next* om het installeren te starten.
 
 Pak iets te drinken terwijl je computer druk bezig is met installeren.
 
