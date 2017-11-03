@@ -23,7 +23,17 @@ Developer Center](https://dev.acquia.com/downloads). Kies voor *Mac Download* of
 
 Web server en database installeren
 --------------------
-### Mac
+Hieronder vind je het installatieproces van de Acquia Dev Desktop voor Mac en 
+Windows. De installatieprocedure is vrijwel gelijk voor Mac en Windows. Als er 
+afwijkingen zijn zullen we die benoemen. De screenshots zijn gemaakt op een Mac
+die draait op macOS High Sierra. Gebruik je een andere versie, of gebruik je 
+Windows, dan zullen de schermen er iets anders uit zien.
+ 
+### Starten van de Installer
+De eerste stappen om de installatie te starten zijn op Mac en Windows iets 
+anders. 
+
+#### Mac
 Als de download klaar is open je op het bestand (disk image). Dubbelklik nu op 
 het blauwe icoontje genaamd *Acquia Dev Desktop Installer* om de installer te 
 starten:
@@ -58,7 +68,27 @@ goedgekeurd programma. Hierna zal de installer starten.
 ![Openingscherm van Dev Desktop
 Installer.](../_static/images/devenv/installation-manual/image19.png)
 
-Klik op *Next* om de installatie te starten. Je krijgt een samenvatting te zien 
+Klik op *Next* om de installatie te starten. 
+
+#### Windows
+Als de download klaar is open je de installer (als je er niet voor gekozen hebt
+om de installer meteen te starten bij het downloaden). Waarschijnlijk krijg je 
+eerst een waarschuwing te zien met de vraag of de installer wijzigingen mag 
+aanbrengen aan je systeem.
+
+![Dialoogvenster van Windows met de vraag of de installer wijzigingen mag 
+aanbrengen.](../_static/images/devenv/installation-manual/image22.png)
+
+Antwoord met ja. De installer zal je nu vragen welke componenten je wilt 
+installeren.
+
+![Installer vraagt welke componenten te installeren.](../_static/images/devenv/installation-manual/image23.png)
+
+Je kunt dit zo laten staan. Klik op *Next*. 
+
+### Vervolg van de installatie
+#### Mac en Windows
+Zowel op Mac als op Windows krijg je nu een samenvatting te zien
 van de software die op je computer geïnstalleerd gaat worden. Ga verder door op 
 *Next* te klikken.
 
@@ -67,16 +97,20 @@ installeren.](../_static/images/devenv/installation-manual/image17.png)
 
 De installer toont de algemene voorwaarden en geeft je de keuze om wel of niet
 data omtrend het gebruik van de Dev Desktop te delen met Acquia. Die keuze is
-aan jou! Als je gekozen hebt, kan je *Next* klikken om verder te gaan.
+aan jou!
 
 ![Scherm met algemene voorwaarden.](../_static/images/devenv/installation-manual/image6.png)
 
+Als je gekozen hebt, kan je *Next* klikken om verder te gaan.
+
 Je krijgt nu je de mogelijkheid om de locatie van de installatiebestanden te 
-kiezen. Laat de standaard-instellingen staan, tenzij je een andere voorkeur hebt 
-(en je weet wat je doet). Kies daarna weer voor *Next* om verder te gaan.
+kiezen (screenshot voor Mac, op Windows wijken de locaties af).
 
 ![Scherm met keuze van locaties voor programmabestanden en sites
 map.](../_static/images/devenv/installation-manual/image5.png)
+
+Laat de standaard-instellingen staan, tenzij je een andere voorkeur hebt 
+(en je weet wat je doet). Kies daarna weer voor *Next* om verder te gaan.
 
 Vervolgens wordt je gevraagd welke poorten er gebruikt mogen worden voor de
 webserver en de database. Ook hier geldt dat de standaard instellingen 
@@ -106,9 +140,6 @@ gaan eerst Drupal zelf downloaden.
 
 ![Laatste scherm installatie Dev
 Desktop.](../_static/images/devenv/installation-manual/image15.png)
-
-### Windows
-TODO.
 
 Drupal downloaden en klaarmaken voor installatie
 -----------------
