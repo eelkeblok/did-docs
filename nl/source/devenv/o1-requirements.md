@@ -80,5 +80,5 @@ Je hebt hiervoor wel meer geheugen in je computer nodig.
 
 * 8 GB geheugen
 
-Meer informatie over het installeren van de Drupal-installatie voor *Drupal in
-a Day* vind je in de installatiehandleiding.
+Meer informatie over het installeren van Drupal zelf vind je ook in de 
+[installatiehandleiding](o3-installation-manual)).
