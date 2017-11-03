@@ -15,7 +15,7 @@ aangewezen voor het installeren van de benodigde software. Grofweg zijn de
 bovenstaande drie stappen hetzelfde. Heb je eenmaal een webserver en database
 draaiend en heb je de Drupal-distributie voor *Drupal in a Day* gedownload, dan
 zijn de stappen voor het installeren van Drupal ook gelijk en kun je verder bij
-de sectie [Drupal installeren](#drupal-installeren).
+de sectie [Drupal downloaden en klaarmaken voor installatie](#drupal-downloaden-en-klaarmaken-voor-installatie).
 
 Ook als je wel een Mac of Windows-machine hebt, maar gebruik maakt van een 
 andere oplossing om PHP-sites te draaien, dan kun je daar in principe gebruik 
