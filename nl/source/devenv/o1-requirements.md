@@ -73,10 +73,10 @@ raden de volgende componenten aan:
 
 Heb je deze componenten (voor zover je weet) niet beschikbaar en/of zou je niet
 weten wat je ermee moet, dan is er gelukkig een eenvoudige oplossing. Hiervoor
-maken we gebruik van een virtual machine; we gaan daarvoor een Linux-
-installatie op je computer installeren (meer hierover in de
-installatiehandleiding). Je hebt hiervoor wel meer geheugen in je computer
-nodig.
+maken we gebruik van een de *Acquia Dev Desktop*; een compleet software pakket
+met alles erin wat je nodig hebt om een Drupal-site op je eigen computer te
+draaien (meer hierover in de [installatiehandleiding](o3-installation-manual)). 
+Je hebt hiervoor wel meer geheugen in je computer nodig.
 
 * 8 GB geheugen
 
