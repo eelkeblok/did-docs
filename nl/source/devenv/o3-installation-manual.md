@@ -56,7 +56,7 @@ is van een voor Apple onbekende ontwikkelaar.
 ![Popup die aangeeft dat de installer geblokkeerd
 is.](../_static/images/devenv/installation-manual/image8.png)
 
-Krijg je deze foutmelding te zien, dan klik je deze eerst weg door op *OK* te 
+Krijg je deze waarschuwing te zien, dan klik je deze eerst weg door op *OK* te
 klikken. Hierna open je *Systeemvoorkeuren*
 (*System Preferences*), bijvoorbeeld door te klikken op het Apple-logo 
 linksboven in de menu-balk en de betreffende optie te kiezen in het dropdown 
