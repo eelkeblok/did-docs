@@ -56,7 +56,7 @@ is van een voor Apple onbekende ontwikkelaar.
 ![Popup die aangeeft dat de installer geblokkeerd
 is.](../_static/images/devenv/installation-manual/image8.png)
 
-Krijg je deze waarschuwing te zien, dan klik je deze eerst weg door op *OK* te
+Krijg je deze waarschuwing te zien, dan klik je deze eerst weg door op *OK* te 
 klikken. Hierna open je *Systeemvoorkeuren*
 (*System Preferences*), bijvoorbeeld door te klikken op het Apple-logo 
 linksboven in de menu-balk en de betreffende optie te kiezen in het dropdown 
@@ -72,7 +72,7 @@ knop om de installer alsnog te starten. Klik op die knop.
 ![Veiligheid & Privacy systeemvoorkeuren met melding dat Dev Desktop is
 geblokkeerd.](../_static/images/devenv/installation-manual/image3.png)
 
-Je krijgt nu normaals een waarschuwing, maar nu kun je *Open* kiezen. Je Mac zal 
+Je krijgt nu nogmaals een waarschuwing, maar nu kun je *Open* kiezen. Je Mac zal 
 je enkele keren vragen om je wachtwoord om de Installer op te slaan als 
 goedgekeurd programma. Hierna zal de installer starten.
 
